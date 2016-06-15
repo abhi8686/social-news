@@ -17,6 +17,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
+gem 'rails_12factor', group: :production
+
 group :development do
   gem 'spring'
   gem 'better_errors'
